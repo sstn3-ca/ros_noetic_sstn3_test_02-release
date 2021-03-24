@@ -1,0 +1,12 @@
+Source: ros-noetic-ros-noetic-sstn3-test-02
+Section: misc
+Priority: optional
+Maintainer: ubuntu <ubuntu@todo.todo>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-rospy, ros-noetic-std-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-ros-noetic-sstn3-test-02
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-rospy, ros-noetic-std-msgs
+Description: The beginner_tutorials package
